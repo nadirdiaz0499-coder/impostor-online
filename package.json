@@ -1,0 +1,16 @@
+{
+  "name": "impostor-online",
+  "version": "1.0.0",
+  "description": "Juego del Impostor online multijugador (3 a 16 jugadores)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
